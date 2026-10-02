@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Hilo · tus informes médicos, explicados</title>
+<meta name="description" content="Hilo explica en lenguaje llano tus informes médicos y los guarda en tu teléfono. En fase de pruebas.">
+<style>
+  :root { --bg:#0c0e13; --card:#171a21; --ink:#f2f3f5; --ink2:#b9bec8; --ink3:#7d8491; --accent:#6cc2a8; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f5f2; --card:#ffffff; --ink:#14161b; --ink2:#3f444e; --ink3:#6b707b; --accent:#2f8f74; } }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--ink);
+         font:17px/1.55 -apple-system, "SF Pro Text", system-ui, sans-serif; padding:32px 16px; }
+  main { max-width:560px; width:100%; }
+  h1 { margin:0 0 6px; font:400 56px/1 ui-serif, "Iowan Old Style", Georgia, serif; letter-spacing:-1px; }
+  .lema { margin:0 0 28px; color:var(--ink2); font-size:20px; }
+  ul { list-style:none; margin:0 0 24px; padding:0; display:grid; gap:12px; }
+  li { background:var(--card); border-radius:16px; padding:16px 18px; }
+  li b { display:block; margin-bottom:2px; }
+  li span { color:var(--ink2); font-size:15.5px; }
+  .nota { color:var(--ink2); font-size:15px; margin:0 0 24px; }
+  .estado { display:inline-block; padding:5px 12px; border-radius:999px; background:var(--card); color:var(--accent); font-size:14px; font-weight:600; }
+  footer { margin-top:28px; color:var(--ink3); font-size:14px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hilo</h1>
+  <p class="lema">Tus informes médicos, explicados en lenguaje llano y guardados en tu teléfono.</p>
+  <ul>
+    <li><b>Escanea tus informes</b><span>Con la cámara del móvil, o subiendo el PDF de tu portal de salud.</span></li>
+    <li><b>Entiende lo que dicen</b><span>Cada informe contado en palabras de todos los días, con lo que dice el propio documento.</span></li>
+    <li><b>Tu historial, en un sitio</b><span>Años de informes de distintos hospitales, ordenados y fáciles de buscar.</span></li>
+  </ul>
+  <p class="nota">Hilo no diagnostica ni recomienda tratamientos: solo explica lo que dice el documento. Tus informes se quedan en tu teléfono y no se guardan en ningún servidor.</p>
+  <span class="estado">En fase de pruebas</span>
+  <footer>Contacto: <a href="mailto:tarevolt@gmail.com">tarevolt@gmail.com</a></footer>
+</main>
+</body>
+</html>
